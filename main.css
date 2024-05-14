@@ -1,21 +1,70 @@
+/* main.css */
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header Styles */
+header {
+  background: linear-gradient(to right, #ffcc00 70%, #00b3ee 30%);
+  background-size: 100% 50%;
+  height: 500px; /* adjust height as needed */
+}
+
+/* Nav Styles */
 nav {
-  width: 100%;
-  height: 20%;
-  background-color: grey;
-  margin-top: -10px;
+  background-color: #444;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
 }
 
 .logo {
-  height: 50px;
-  float: left;
-  font-family: "Russo One", sans-serif;
-
-  color: white;
-  margin-left: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
-header {
-  width: 100%;
-  height: 500px;
-  background-color: rgb(68, 68, 68);
+.col-6 h1 {
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 100px;
+}
+
+.col-61 {
+  width: 300px;
+  height: 450px;
+  background-color: red;
+  margin-left: 860px;
+  margin-top: -130px;
 }
